@@ -1,0 +1,291 @@
+ ===>>>> 05-03 17:21:46.360 E/WifiStateMachine(  550): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=0.05 rxSuccessRate=0.41 targetRoamBSSID=00:00:00:00:00:00 RSSI=-62
+ ===>>>> 05-03 17:21:46.361 E/WifiStateMachine(  550): WifiStateMachine starting scan for "47Degrees_5GHz"WPA_PSK with 2437,5180
+
+
+04-29 20:38:33.614 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.614 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.614 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.614 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.615 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.615 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.616 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.616 V/SettingsBackupAgent( 5247):   + setting WPA_PSK bit
+04-29 20:38:33.629 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:33.629 I/BackupRestoreController( 5247): Getting widget state for user: 0
+04-29 20:38:33.634 V/GmsBackupTransport( 7584): starting performBackup for com.android.providers.settings
+04-29 20:38:33.634 V/GmsBackupTransport( 7584): performBackup done for com.android.providers.settings
+04-29 20:38:34.000 I/GmsBackupTransport( 7584): Http Response Code : 200
+04-29 20:38:34.005 V/GmsBackupTransport( 7584): backup finished for com.android.providers.settings
+04-29 20:38:34.015 D/PerformBackupTask( 5247): starting key/value backup of BackupRequest{pkg=android}
+04-29 20:38:34.017 D/BackupManagerService( 5247): awaiting agent for ApplicationInfo{10df4a9 android}
+04-29 20:38:34.026 D/BackupManagerService( 5247): agentConnected pkg=android agent=android.app.backup.BackupAgent$BackupServiceBinder@9314d3f
+04-29 20:38:34.027 I/BackupManagerService( 5247): got agent android.app.backup.BackupAgent$BackupServiceBinder@9314d3f
+04-29 20:38:34.027 D/PerformBackupTask( 5247): invokeAgentForBackup on android
+04-29 20:38:34.031 D/BackupHelperDispatcher( 5247): handling existing helper 'account_sync_settings' com.android.server.backup.AccountSyncSettingsBackupHelper@d41460c
+04-29 20:38:34.045 I/AccountSyncSettingsBackupHelper( 5247): Old and new MD5 checksums match. Skipping backup.
+04-29 20:38:34.046 D/BackupHelperDispatcher( 5247): handling existing helper 'notifications' com.android.server.backup.NotificationBackupHelper@16aab55
+04-29 20:38:34.058 D/BackupHelperDispatcher( 5247): handling new helper 'preferred_activities'
+04-29 20:38:34.087 D/BackupHelperDispatcher( 5247): handling new helper 'wallpaper'
+04-29 20:38:34.114 I/BackupRestoreController( 5247): Getting widget state for user: 0
+04-29 20:38:34.119 V/GmsBackupTransport( 7584): starting performBackup for android
+04-29 20:38:34.630 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:35.631 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:35.856 I/GmsBackupTransport( 7584): Http Response Code : 200
+04-29 20:38:36.633 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:37.514 I/GmsBackupTransport( 7584): Http Response Code : 200
+04-29 20:38:37.522 V/GmsBackupTransport( 7584): performBackup done for android
+04-29 20:38:37.634 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:38.634 W/Atfwd_Sendcmd( 5337): AtCmdFwd service not published, waiting... retryCnt : 4
+04-29 20:38:42.487 I/GmsBackupTransport( 7584): Http Response Code : 200
+04-29 20:38:42.541 V/GmsBackupTransport( 7584): backup finished for android
+04-29 20:38:42.552 D/PerformBackupTask( 5247): starting key/value backup of BackupRequest{pkg=com.google.android.googlequicksearchbox}
+04-29 20:38:42.577 I/ActivityManager( 5247): Start proc 7507:com.google.android.googlequicksearchbox/u0a29 for backup com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelBackupAgentHelper
+04-29 20:38:42.578 D/BackupManagerService( 5247): awaiting agent for ApplicationInfo{6255dd3 com.google.android.googlequicksearchbox}
+04-29 20:38:42.759 I/ConfigService( 7584): onCreate
+04-29 20:38:42.802 I/CheckinRequestBuilder( 7584): Classify the device as Phone.
+04-29 20:38:43.070 D/BackupManagerService( 5247): agentConnected pkg=com.google.android.googlequicksearchbox agent=android.os.BinderProxy@3612741
+04-29 20:38:43.070 I/BackupManagerService( 5247): got agent android.app.IBackupAgent$Stub$Proxy@799b4e6
+04-29 20:38:43.070 D/PerformBackupTask( 5247): invokeAgentForBackup on com.google.android.googlequicksearchbox
+04-29 20:38:43.075 D/BackupHelperDispatcher( 7507): handling existing helper 'L' com.android.launcher3.LauncherBackupHelper@4893db5
+04-29 20:38:43.362 D/BackupHelperDispatcher( 7507): handling existing helper 'R' com.google.android.apps.gsa.reflection.a@e3a9c4a
+04-29 20:38:43.364 V/KeyValueBackupJob( 5247): Scheduling k/v pass in 248 minutes
+04-29 20:38:43.376 I/BackupRestoreController( 5247): Getting widget state for user: 0
+04-29 20:38:43.379 I/BackupManagerService( 5247): Backup pass finished.
+04-29 20:38:43.881 D/ChimeraConfigService(21018): gms:chimera:wearable_dogfood = prod
+04-29 20:38:43.905 D/ChimeraConfigService(21018): Fetched value, gms:chimera:module_overlay = 0|
+04-29 20:38:43.906 D/ZappDownloader(21018): Read 0 stored downloads
+04-29 20:38:43.934 I/ActivityManager( 5247): Killing 5172:com.android.providers.calendar/u0a1 (adj 15): empty #17
+04-29 20:38:48.919 I/ConfigService( 7584): onDestroy
+04-29 20:38:52.680 I/Metrics:BatchTransmitte( 5309): QueuePusher.sendBatches - Drained batch queue.; Number of HIGH queue batches sent: 0
+04-29 20:38:56.280 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039039743, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:38:58.636 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:38:59.639 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:39:00.642 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:39:01.644 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:39:02.646 I/ServiceManager( 5337): Waiting for service AtCmdFwd...
+04-29 20:39:03.647 W/Atfwd_Sendcmd( 5337): AtCmdFwd service not published, waiting... retryCnt : 5
+04-29 20:39:03.798 I/GCM     ( 7584): GCM message GSYNC_TICKLE 0:1461955141323211%e7a7135305759a86
+04-29 20:39:03.888 I/GCM     ( 7584): GCM message GSYNC_TICKLE 0:1461955141357288%e7a71353318775a9
+04-29 20:39:03.897 I/SubscribedFeeds(18245): Received message
+04-29 20:39:03.912 I/SubscribedFeeds(18245): Received message
+04-29 20:39:03.958 I/ActivityManager( 5247): Start proc 7529:com.google.android.apps.inbox/u0a236 for service com.google.android.apps.inbox/com.google.android.apps.bigtop.service.BigTopSyncService
+04-29 20:39:04.080 W/Gmail   ( 7250): Sync started for account: account:-1957381336
+04-29 20:39:04.104 I/Gmail   ( 7250): notifyAccountChanged
+04-29 20:39:04.116 I/Gmail   ( 7250): getAccountsCursor
+04-29 20:39:04.156 I/Gmail   ( 7250): master sync=true, engine sync=false
+04-29 20:39:04.178 E/Gmail.LabelManager( 7250): Unable to get label ^i for account account:2067980420
+04-29 20:39:04.178 E/Gmail   ( 7250): Couldn't find label: ^i
+04-29 20:39:04.361 I/Gmail   ( 7250): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 5553485, normalSync: true
+04-29 20:39:04.390 V/GLSActivity( 7584): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+04-29 20:39:04.392 V/GLSActivity( 7584): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+04-29 20:39:04.495 W/bta     ( 7529): BigTopApplication I am version 1.21 (118829054) PID: 7529 release
+04-29 20:39:04.536 W/Primes  ( 7529): Timer instrumentations are turned off.
+04-29 20:39:04.536 W/Primes  ( 7529): Network monitoring is turned off.
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): couldn't get getPackageSizeInfo method
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): java.lang.NoSuchMethodException: getPackageSizeInfo [class java.lang.String, interface a]
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.lang.Class.getMethod(Class.java:624)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.lang.Class.getMethod(Class.java:603)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at frb.a(PG:82)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at frb.a(PG:91)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at fpu.b(PG:1124)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at fqt.run(PG:59)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:269)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+04-29 20:39:04.597 E/PackageStatsCapture( 7529): 	at java.lang.Thread.run(Thread.java:818)
+04-29 20:39:04.597 W/PackageMetricService( 7529): PackageStats capture failed.
+04-29 20:39:04.841 I/art     ( 5247): Background partial concurrent mark sweep GC freed 63840(4MB) AllocSpace objects, 27(1080KB) LOS objects, 22% free, 55MB/71MB, paused 1.108ms total 160.483ms
+04-29 20:39:04.997 D/ConnectivityService( 5247): listenForNetwork for Listen from uid/pid:10236/7529 for NetworkRequest [ id=2813, legacyType=-1, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+04-29 20:39:05.008 V/JNIHelp ( 7250): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 254 native methods...
+04-29 20:39:05.080 W/bta     ( 7529): cfh StackMigration User preference for BigTop Data: AUTO account: -1957381336
+04-29 20:39:05.080 W/bta     ( 7529): bba StackMigration BigTop Data is ALLOWED for account: -1957381336
+04-29 20:39:05.080 W/bta     ( 7529): bba StackMigration BigTop Data server preference is ENABLE for account: -1957381336
+04-29 20:39:05.081 W/bta     ( 7529): cfh StackMigration Server preference for BigTop Data: ENABLE account: -1957381336
+04-29 20:39:05.081 W/bta     ( 7529): cfh StackMigration No pending mutations exist, so safe to use either stack for account: -1957381336
+04-29 20:39:05.081 W/bta     ( 7529): cfh StackMigration Prefer BigTop Data result: true for account: -1957381336
+04-29 20:39:05.082 W/bta     ( 7529): bba StackMigration Setting flushed all pending mutations to: false account: -1957381336
+04-29 20:39:05.085 W/bta     ( 7529): bba StackMigration Setting last launched with BigTop Data to: true account: -1957381336
+04-29 20:39:05.277 I/ProviderInstaller( 7250): Installed default security provider GmsCore_OpenSSL
+04-29 20:39:05.582 W/mwj     ( 7529): Stub cumulus method should not be used
+04-29 20:39:06.086 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 8
+04-29 20:39:06.086 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 13
+04-29 20:39:06.086 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 49
+04-29 20:39:06.086 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 3
+04-29 20:39:06.087 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 48
+04-29 20:39:06.087 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: iu_wsippc
+04-29 20:39:06.087 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_59
+04-29 20:39:06.088 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_85
+04-29 20:39:06.088 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_86
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_87
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_88
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_89
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: 50
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_90
+04-29 20:39:06.089 W/lrd     ( 7529): Could not extract SettingKey for setting with ID: be_91
+04-29 20:39:06.344 V/JNIHelp ( 7529): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 254 native methods...
+04-29 20:39:06.663 I/ProviderInstaller( 7529): Installed default security provider GmsCore_OpenSSL
+04-29 20:39:06.677 W/ndg     ( 7529): OAuthToken value is missing required prefix 'OAuth '
+04-29 20:39:07.486 W/bta     ( 7529): cdo Sync status: SYNCED. Synced 0 objects.
+04-29 20:39:07.600 W/bta     ( 7529): ddy Fetched unseen inbox items successfully. Size: 0
+04-29 20:39:07.601 W/bta     ( 7529): ddy No supported items to notify for. Cancelling current notifications.
+04-29 20:39:07.806 W/bta     ( 7529): bba StackMigration Setting BigTop Data as: ALLOWED  for account: -1957381336
+04-29 20:39:07.808 W/bta     ( 7529): bba StackMigration Setting BigTop Data server preference to: true account: -1957381336
+04-29 20:39:07.947 I/art     ( 7584): Background partial concurrent mark sweep GC freed 65108(6MB) AllocSpace objects, 43(7MB) LOS objects, 30% free, 35MB/51MB, paused 1.416ms total 120.866ms
+04-29 20:39:07.953 E/DataBuffer( 7584): Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@bad236a)
+04-29 20:39:07.964 E/DataBuffer( 7584): Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@77e905b)
+04-29 20:39:08.003 D/GmailContractLoader( 7052): queryLabels
+04-29 20:39:08.020 I/Gmail   ( 7250): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 5553496, normalSync: true
+04-29 20:39:08.023 I/Gmail   ( 7250): lowestBackward conversation id 0
+04-29 20:39:08.029 V/NQFileLogger( 7584): Run processing service immediately
+04-29 20:39:08.035 I/GmailContractLoader( 7052): loop through the cursor and find the Inbox
+04-29 20:39:08.045 I/GmailContractLoader( 7052): Unread Conversations in PrimaryInbox: 0
+04-29 20:39:08.052 D/GmailContractLoader( 7052): queryLabels
+04-29 20:39:08.070 I/GmailContractLoader( 7052): loop through the cursor and find the Inbox
+04-29 20:39:08.073 I/GmailContractLoader( 7052): Unread Conversations in PrimaryInbox: 1
+04-29 20:39:08.086 D/GmailContractLoader( 7052): queryLabels
+04-29 20:39:08.098 I/GmailContractLoader( 7052): loop through the cursor and find the Inbox
+04-29 20:39:08.104 I/GmailContractLoader( 7052): GmailBadgeObserver onChange: total unread count: 1
+04-29 20:39:08.105 D/GmailContractLoader( 7052): updateGmailBadgeCount
+04-29 20:39:08.144 D/Launcher.LauncherProvider( 7052): notifyChange
+04-29 20:39:08.221 I/Gmail   ( 7250): notifyAccountChanged
+04-29 20:39:08.224 I/Gmail   ( 7250): getAccountsCursor
+04-29 20:39:08.252 I/Gmail   ( 7250): master sync=true, engine sync=false
+04-29 20:39:08.257 E/Gmail.LabelManager( 7250): Unable to get label ^i for account account:2067980420
+04-29 20:39:08.257 E/Gmail   ( 7250): Couldn't find label: ^i
+04-29 20:39:08.262 I/Gmail   ( 7250): notifyAccountChanged
+04-29 20:39:08.271 W/Gmail   ( 7250): Sync complete for account: account:-1957381336
+04-29 20:39:08.274 I/Gmail   ( 7250): getAccountsCursor
+04-29 20:39:08.303 I/Gmail   ( 7250): master sync=true, engine sync=false
+04-29 20:39:08.310 E/Gmail.LabelManager( 7250): Unable to get label ^i for account account:2067980420
+04-29 20:39:08.310 E/Gmail   ( 7250): Couldn't find label: ^i
+04-29 20:39:08.765 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039052228, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_REACHABLE}
+04-29 20:39:09.200 I/Icing   (21018): Indexing F22F44FE12CA162F628C6022A727743578BAF04A from com.google.android.gm
+04-29 20:39:09.229 I/Icing   (21018): Not enough disk space for indexing trimmable
+04-29 20:39:09.229 I/Icing   (21018): Cannot sync trimmable corpus: no trimmable
+04-29 20:39:09.229 I/Icing   (21018): Indexing done F22F44FE12CA162F628C6022A727743578BAF04A
+04-29 20:39:09.229 E/Icing   (21018): Aborting indexing of corpus messages/com.google/javi.pacheco%40gmail.com
+04-29 20:39:19.594 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039063056, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:39:28.648 I/Atfwd_Sendcmd( 5337): AtCmdFwd service not ready - Exhausted retry attempts - :6
+04-29 20:39:28.648 I/Atfwd_Daemon( 5337): result : -1 	 ,Init step :2 	 ,qmiErrorCode: 0
+04-29 20:39:35.620 I/ActivityManager( 5247): Killing 5122:com.google.android.googlequicksearchbox:search/u0a29 (adj 15): empty #17
+04-29 20:39:35.637 D/WifiService( 5247): Client connection lost with reason: 4
+04-29 20:39:35.647 V/GLSActivity( 7584): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+04-29 20:39:35.649 V/GLSActivity( 7584): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+04-29 20:39:40.687 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039084150, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_REACHABLE}
+04-29 20:39:47.967 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039091430, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:39:53.678 E/QC-QMI  ( 5337): qmi_client [5337] 523: failed to locate client data
+04-29 20:39:53.680 E/QC-QMI  ( 3913): qmuxd: RX on fd=16 returned error=0 errno[11:Try again]
+04-29 20:39:53.681 E/QC-QMI  ( 3913): QMUX qmux_client_id=523 not found in qmux client list, unable to remove
+04-29 20:39:53.686 I/Atfwd_Daemon( 5337): Stop the daemon....
+04-29 20:39:53.768 I/libmdmdetect( 7662): ESOC framework not supported
+04-29 20:39:53.769 I/libmdmdetect( 7662): Found internal modem: modem
+04-29 20:39:53.765 W/ATFWD-daemon( 7662): type=1400 audit(0.0:213634): avc: denied { read write } for name="diag" dev="tmpfs" ino=11196 scontext=u:r:atfwd:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+04-29 20:39:53.770 E/Diag_Lib( 7662):  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+04-29 20:39:53.779 I/Atfwd_Daemon( 7662): result : 255 	 ,Init step :0 	 ,qmiErrorCode: 0
+04-29 20:39:53.779 I/Atfwd_Daemon( 7662): result : 0 	 ,Init step :1 	 ,qmiErrorCode: 0
+04-29 20:39:53.780 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:39:54.783 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:39:55.785 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:39:56.786 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:39:57.788 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:39:58.790 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 1
+04-29 20:40:03.790 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:04.792 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:05.794 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:06.059 W/kje     ( 7529): Failed to find local clusters, trying remote query.
+04-29 20:40:06.741 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039110204, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_REACHABLE}
+04-29 20:40:06.796 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:07.798 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:07.907 W/bta     ( 7529): bba StackMigration Setting flushed all pending mutations to: true account: -1957381336
+04-29 20:40:07.935 D/ConnectivityService( 5247): releasing NetworkRequest NetworkRequest [ id=2813, legacyType=-1, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+04-29 20:40:08.798 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 2
+04-29 20:40:08.999 E/AppUsageEventWatcher( 7584): wrong time range: [1462894913555, 1461955208997)
+04-29 20:40:09.039 D/WifiService( 5247): acquireWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@fd1a871}
+04-29 20:40:09.079 D/wifi    ( 5247): Initialized common fields 10000, 25, 100, 10
+04-29 20:40:09.107 D/wifi    ( 5247): bucket[0] = 2:3:10000:2
+04-29 20:40:09.175 I/ActivityManager( 5247): Start proc 7678:com.google.android.googlequicksearchbox:search/u0a29 for broadcast com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.location.ActivityDetectionReceiver
+04-29 20:40:09.186 D/WifiService( 5247): acquireWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@5fd5656}
+04-29 20:40:09.223 D/AbstractMetricsFactoryImpl( 5309): record : No data points in metrics event
+04-29 20:40:09.227 D/AbstractMetricsFactoryImpl( 5309): record : No data points in metrics event
+04-29 20:40:09.230 D/AbstractMetricsFactoryImpl( 5309): record : No data points in metrics event
+04-29 20:40:09.332 D/WifiService( 5247): releaseWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@fd1a871}
+04-29 20:40:09.486 I/AmazonAppstore.SchedulePeriodicWork( 5309): uk.amazon.mShop.android/com.amazon.mas.client.featureconfig.FeatureConfigService-com.amazon.mas.client.featureconfig.REFRESH_FEATURE_CONFIG - next work will occur at Sat Apr 30 01:39:15 GMT+02:00 2016 (SCHEDULER)
+04-29 20:40:09.923 D/WifiService( 5247): releaseWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@5fd5656}
+04-29 20:40:10.136 D/WifiService( 5247): New client listening to asynchronous messages
+04-29 20:40:10.294 I/ActivityManager( 5247): Killing 6998:com.google.android.inputmethod.latin/u0a56 (adj 15): empty #17
+04-29 20:40:10.891 D/LocationFilter( 7584): Forcing stable location. Original location:Location[fused 36.531434,-6.293674 acc=28 et=+12d0h38m34s290ms {Bundle[{wifiScan=[B@6f24e59, noGPSLocation=Location[fused 36.531434,-6.293674 acc=28 et=+12d0h38m34s290ms {Bundle[mParcelledData.dataSize=160]}], locationType=3}]}] because SMD didn't trigger.
+04-29 20:40:10.945 I/GCoreUlr( 7584): Successfully inserted 1 locations
+04-29 20:40:10.946 I/GCoreUlr( 7584): Cancelling scheduled uploads
+04-29 20:40:10.947 I/GCoreUlr( 7584): Not calling LocationReporter, hasMoved: false, elapsed millis: 2088056, request: Stationary(3600000)
+04-29 20:40:10.987 I/GCoreUlr( 7584): Scheduling next upload for 1511944ms from now
+04-29 20:40:11.023 W/LocationOracle( 7678): Starting background requests
+04-29 20:40:11.295 I/ActivityManager( 5247): Start proc 7761:com.google.android.partnersetup/u0a18 for content provider com.google.android.partnersetup/.RlzAppProvider
+04-29 20:40:11.316 I/art     ( 5247): Background partial concurrent mark sweep GC freed 30801(1804KB) AllocSpace objects, 0(0B) LOS objects, 22% free, 55MB/71MB, paused 2.453ms total 202.037ms
+04-29 20:40:11.325 I/ActivityManager( 5247): Start proc 7774:com.android.providers.calendar/u0a1 for content provider com.android.providers.calendar/.CalendarProvider2
+04-29 20:40:11.336 E/LocationReceiver( 7678): Received bad location: null
+04-29 20:40:11.349 E/LocationReceiver( 7678): Received bad location: null
+04-29 20:40:11.350 W/System  ( 7761): ClassLoader referenced unknown path: /system/priv-app/GooglePartnerSetup/lib/arm64
+04-29 20:40:11.427 W/System  ( 7774): ClassLoader referenced unknown path: /system/priv-app/CalendarProvider/lib/arm64
+04-29 20:40:11.466 I/CalendarProvider2( 7774): Created com.android.providers.calendar.CalendarAlarmManager@e3a9c4a(com.android.providers.calendar.CalendarProvider2@5cf47bb)
+04-29 20:40:12.586 I/CalendarProvider2( 7774): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+04-29 20:40:12.596 W/ContentResolver( 7774): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+04-29 20:40:12.632 I/ActivityManager( 5247): Start proc 7791:com.google.android.calendar/u0a36 for broadcast com.google.android.calendar/com.android.calendar.alerts.AlertReceiver
+04-29 20:40:12.731 W/System  ( 7791): ClassLoader referenced unknown path: /data/app/com.google.android.calendar-2/lib/arm64
+04-29 20:40:13.138 I/AnalyticsLogBase( 7791): PlayLogger.onLoggerConnected
+04-29 20:40:13.140 I/AnalyticsLogBase( 7791): PlayLogger.onLoggerConnected
+04-29 20:40:13.140 I/AnalyticsLogBase( 7791): PlayLogger.onLoggerConnected
+04-29 20:40:13.189 I/ActivityManager( 5247): Start proc 7819:com.pujie.wristwear.pujieblack/u0a192 for broadcast com.pujie.wristwear.pujieblack/.NativeEventChangeReceiver
+04-29 20:40:13.253 W/System  ( 7819): ClassLoader referenced unknown path: /data/app/com.pujie.wristwear.pujieblack-1/lib/arm64
+04-29 20:40:18.033 I/GAV2    ( 7791): Thread[GAThread,5,main]: No campaign data found.
+04-29 20:40:18.800 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:19.802 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:20.803 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:21.804 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:22.806 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:23.673 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039127136, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:40:23.807 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 3
+04-29 20:40:38.809 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:39.810 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:40.813 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:41.814 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:42.816 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:40:43.817 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 4
+04-29 20:41:03.819 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:04.821 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:05.336 I/ClearcutLoggerApiImpl( 7584): disconnect managed GoogleApiClient
+04-29 20:41:05.824 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:06.826 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:07.828 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:08.830 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 5
+04-29 20:41:14.275 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039177737, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_PROBE}
+04-29 20:41:28.020 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039191483, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:41:33.832 I/Atfwd_Sendcmd( 7662): AtCmdFwd service not ready - Exhausted retry attempts - :6
+04-29 20:41:33.832 I/Atfwd_Daemon( 7662): result : -1 	 ,Init step :2 	 ,qmiErrorCode: 0
+04-29 20:41:38.834 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:39.835 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:40.838 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:41.840 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:42.843 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:43.845 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 1
+04-29 20:41:45.167 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039208630, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_PROBE}
+04-29 20:41:48.846 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:49.849 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:50.851 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:51.853 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:52.856 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:41:53.858 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 2
+04-29 20:42:03.860 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:04.607 D/NetlinkSocketObserver( 5247): NeighborEvent{elapsedMs=1039228070, 192.168.1.1, [E041360DF348], RTM_NEWNEIGH, NUD_STALE}
+04-29 20:42:04.862 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:05.864 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:06.867 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:07.869 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:08.871 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 3
+04-29 20:42:23.873 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:24.875 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:25.877 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:26.879 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:27.880 I/ServiceManager( 7662): Waiting for service AtCmdFwd...
+04-29 20:42:28.881 W/Atfwd_Sendcmd( 7662): AtCmdFwd service not published, waiting... retryCnt : 4
