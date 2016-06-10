@@ -6,5 +6,5 @@ object Config {
 
   val tableHive = "exceptionsHive"
 
-  val urlSearchStackOverflow = "http://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&site=stackoverflow&q="
+  val urlSearchStackOverflow = "https://api.stackexchange.com/2.2/search/advanced?access_token=F5XCqCu(GqsuhImtfj(V6A))&key=A2z6XJ0VLRxoBvVVEwfWdg((&order=desc&sort=activity&site=stackoverflow&q="
 }
