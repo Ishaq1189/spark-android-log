@@ -2,9 +2,9 @@ package com.fortysevendeg.log
 
 import com.fortysevendeg.log.models._
 import com.fortysevendeg.log.utils.Regex._
-import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.storage.StorageLevel
-import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
+import org.apache.spark.streaming.dstream.DStream
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.language.postfixOps
@@ -47,14 +47,19 @@ object CountLevelsLog {
       (logLine.info.logType.toString, 1)
     }
 
-    val counters = levels.reduceByKeyAndWindow(_ + _, _ - _, Seconds(60 * 5), Seconds(1))
-//
-//    counters.foreachRDD(_.foreach{
-//      case (key, count) => println(s"$key => $count")
-//    })
+    val counters: DStream[(String, Int)] = levels.reduceByKeyAndWindow(_ + _, _ - _, Seconds(5), Seconds(1))
+
+    val globalCounters: DStream[(String, Int)] = counters.updateStateByKey {
+      (counts: Seq[Int], oldState: Option[Int]) => Option(oldState.fold(counts.sum)(_ + counts.sum))
+    }
+
+    val info = counters.join(globalCounters)
 
     counters.foreachRDD(rdd =>
       println("\nTop 10 levels:\n" + rdd.take(10).mkString("\n")))
+
+    info.foreachRDD(rdd =>
+      println("\nTop 10 counters:\n" + rdd.take(10).mkString("\n")))
 
     ssc.start()
     ssc.awaitTermination()

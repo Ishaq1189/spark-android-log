@@ -8,6 +8,7 @@ import com.fortysevendeg.log.utils.Regex._
 import org.apache.spark.sql.SaveMode
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.storage.StorageLevel
+import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Milliseconds, Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.http4s.client.blaze.PooledHttp1Client
@@ -28,7 +29,7 @@ object BigLog {
 
     val conf = new SparkConf().setMaster("local[2]").setAppName("BigLog")
     val sc = new SparkContext(conf)
-    val ssc = new StreamingContext(sc, Milliseconds(100))
+    val ssc = new StreamingContext(sc, Seconds(1))
     ssc.checkpoint("/tmp")
 
     val sqlContext = new HiveContext(sc)
@@ -60,7 +61,7 @@ object BigLog {
 
     // Log Exception
 
-    val exceptionWindow = logs.filter(ll => ll.info.logType == Error || ll.info.logType == Warning).window(Seconds(2))
+    val exceptionWindow: DStream[LogLine] = logs.filter(ll => ll.info.logType == Error || ll.info.logType == Warning).window(Seconds(2))
 
     val exceptions = exceptionWindow.flatMap { logLine =>
       exception.findFirstIn(logLine.message) map (LogException(_, logLine.message, logLine.info.date))
